@@ -7,7 +7,6 @@ int main() {
 
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
-    //funcion que llame a imprimir tabla de cables
-    //void printColorPairTable();
+    PrintColorPairTable();
     return 0;
 }
