@@ -71,3 +71,17 @@ void testPairToNumber(
     printf("Got pair number %d\n", pairNumber);
     assert(pairNumber == expectedPairNumber);
 }
+
+void PrintColorPairTable( )
+{
+    int minColor, majColor,cont = 1;
+
+    for(majColor = 0; majColor < numberOfMajorColors ; majColor++){
+        for(minColor = 0 ; minColor < numberOfMinorColors ; minColor++)
+        {
+            printf("%d \t %s \t %s\n", cont, MajorColorNames[majColor], MinorColorNames[minColor]);
+            cont++;
+        }
+    }    
+    
+}
