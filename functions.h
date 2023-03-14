@@ -11,8 +11,4 @@ void testPairToNumber( enum MajorColor major, enum MinorColor minor, int expecte
 
 void PrintColorPairTable();
 
-#include "functions.c"
-#include "Tests.c"
-#include "PrintingTable.c"
-
 #endif
