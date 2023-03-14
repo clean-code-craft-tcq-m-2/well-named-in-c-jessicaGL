@@ -75,11 +75,17 @@ void PrintColorPairTable( )
     for(majColor = 0; majColor < numberOfMajorColors ; majColor++){
         for(minColor = 0 ; minColor < numberOfMinorColors ; minColor++)
         {
-            printf("%d \t %s \t %s\n", cont, MajorColorNames[majColor], MinorColorNames[minColor]);
-            cont++;
+            if(majColor > 2)
+                {
+                    printf("%d \t %s  %s\n", cont, MajorColorNames[majColor], MinorColorNames[minColor]);
+                    cont++;
+                }
+                else
+                {
+                    printf("%d \t %s \t %s\n", cont, MajorColorNames[majColor], MinorColorNames[minColor]);
+                    cont++; 
+                }
         }
     }    
-
-    //printf("%s", MinorColorNames[minColor]);
     
 }
