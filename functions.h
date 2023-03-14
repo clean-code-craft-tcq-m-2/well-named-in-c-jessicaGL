@@ -4,6 +4,8 @@
 #include <assert.h>
 
 #include "functions.c"
+#include "Test.c"
+#include "PrintingTable.c"
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer);
 ColorPair GetColorFromPairNumber(int pairNumber);
