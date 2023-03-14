@@ -4,7 +4,7 @@
 #include <assert.h>
 
 #include "functions.c"
-#include "Test.c"
+#include "Tests.c"
 #include "PrintingTable.c"
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer);
